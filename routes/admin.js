@@ -53,6 +53,8 @@ router.post('/setup', async (req, res) => {
     const teacherExists = await Admin.findOne({ email: 'teacher@school.com' });
     const principalExists = await Admin.findOne({ email: 'principal@school.com' });
     
+    // Admins and Director login credentials
+   
     if (!teacherExists) {
       await Admin.create({
         name: 'Teacher Admin',
