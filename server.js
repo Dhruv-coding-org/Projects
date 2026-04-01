@@ -32,7 +32,7 @@ mongoose.connect(MONGODB_URI, {
 .catch((err) => {
   console.error('❌ MongoDB connection error:', err.message);
   console.log('\n📌 Troubleshooting tips:');
-  console.log('1. Make sure MongoDB is installed and running');
+  console.log('1. MongoDB is installed and running');
   console.log('2. Check if MongoDB service is started');
   console.log('3. Verify the connection string is correct');
   console.log('4. If using localhost, ensure MongoDB is listening on port 27017');
