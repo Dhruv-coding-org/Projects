@@ -49,7 +49,7 @@ app.listen(PORT, () => {
   console.log(`\n🚀 Server running on http://localhost:${PORT}`);
   console.log('\n📋 Login credentials:');
   console.log('  👨‍🎓 Student: Register your account');
-  console.log('  👨‍🏫 Teacher: teacher@school.com / teacher123');
-  console.log('  👑 Principal: principal@school.com / principal123');
+  console.log('  👨‍🏫 Teacher: HOD@gmail.com / teacher123');
+  console.log('  👑 Principal: director@gmail.com / principal123');
   console.log('\n✨ System ready!');
 });
